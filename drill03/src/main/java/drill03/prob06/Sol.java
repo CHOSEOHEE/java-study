@@ -10,11 +10,18 @@ package drill03.prob06;
 public class Sol {
 
 	public static void main(String[] args) {
-		String name = "admin";
+		String name = "a00dmin";
 		// 문자열 비교에는 equals() 사용		
 		
 		//boolean result1 = name == "admin";
 		//System.out.println
+		
+	    if("admin".equals(name)) {
+	    	System.out.println("관리자입니다.");
+	    } else{
+	    	System.out.println("일반 사용자입니다.");
+	    }
+		
 	}
 
 }

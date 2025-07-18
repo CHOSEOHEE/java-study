@@ -20,6 +20,24 @@ public class Sol {
 	public static void main(String[] args) {
 		int month = 7;
 		// switch + case 여러 개 묶기 활용
+		switch(month) {
+		
+		case 3 : case 4: case 5 :
+			System.out.println("봄은 3월부터 5월까지입니다");
+			break;
+			
+		case 6: case 7: case 8:
+			System.out.println("여름은 6월부터 8월까지입니다");
+			break;
+		case 9: case 10 : case 11:
+			System.out.println("가을은 9월부터 11월까지입니다");
+			break;
+		case 12 : case 1: case 2:
+			System.out.println("겨울은 12월부터 2월까지입니다");
+			break;
+
+		}
+		
 
 	}
 

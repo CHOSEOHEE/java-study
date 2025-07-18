@@ -14,7 +14,7 @@ public class Sol {
 
 	public static void main(String[] args) {
 		
-		final double PI = 3.141592f;
+		final double PI = 3.141592;
 		final int MAX_USER = 1000;
 		
 		System.out.println(PI);
