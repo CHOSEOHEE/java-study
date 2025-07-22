@@ -14,7 +14,7 @@ public class Sol {
 		// 문자열 비교에는 equals() 사용		
 		
 		//boolean result1 = name == "admin";
-		//System.out.println
+				//System.out.println
 		
 	    if("admin".equals(name)) {
 	    	System.out.println("관리자입니다.");
