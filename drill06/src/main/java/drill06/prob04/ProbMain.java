@@ -19,10 +19,34 @@ public class ProbMain {
 			model = scanner.next();
 			speed = scanner.nextInt();
 			
-			cars = new Car[0];
+			cars[i] = new Car();
 			
+			cars[i].setModel(model);
+			cars[i].setSpeed(speed);
+			
+			
+		} 
+		for(int i = 0; i < cars.length; i++) {
+//			System.out.print(cars[i].getModel());
+//			System.out.print(cars[i].getSpeed());
+			
+			System.out.println("Car[model="+cars[i].getModel()+", speed="+cars[i].getSpeed()+"]");	
 		}
-
+		
+		
+		//getModel 반복문
+//		
+//		System.out.println(cars[1].getModel());
+//		System.out.println(cars[2].getModel());
+//		
+//		//getSpeed 반복문
+//	
+//		
+//		System.out.println(cars[1].getSpeed());
+//		System.out.println(cars[2].getSpeed());
+//		
+		
+	
 		scanner.close();
 	}
 
