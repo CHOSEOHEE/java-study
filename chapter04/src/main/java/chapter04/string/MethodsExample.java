@@ -19,7 +19,7 @@ public class MethodsExample {
 		String a = "apple";
 		String b = "Apple";
 		System.out.println("equals():" + a.equals(b)); // false
-		System.out.println("equalsIgnoreCase():" + a.equals(b)); // true
+		System.out.println("equalsIgnoreCase():" + a.equalsIgnoreCase(b)); // true
 		
 		//5. indexOf() / contains()
 		String s4 = "banana";

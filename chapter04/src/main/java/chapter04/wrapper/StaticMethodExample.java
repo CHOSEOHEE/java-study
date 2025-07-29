@@ -11,10 +11,10 @@ public class StaticMethodExample {
 		
 		// Double
 		double parseDouble =  Double.parseDouble("3.14"); // 문자열 -> double
-		boolean isNaN = Double,isNaN(0.0 /0.0); //NaN 여부
+		boolean isNaN = Double.isNaN(0.0 /0.0); //NaN 여부
 		
 		//Boolean 
-		boolean parseboolean = Boolean.parseBoolean("true"); //문자열 -> boolean
+		boolean parseBoolean = Boolean.parseBoolean("true"); //문자열 -> boolean
 		String boolToString = Boolean.toString(false); // boolean -> 문자열
  		
 		//character
@@ -24,8 +24,23 @@ public class StaticMethodExample {
 		
 		//Long 
 		long decodeLong = Long.decode("0x1F"); //다양한 진수 분사열
-        
+        //출력
+	    System.out.println("parseInt: "+ parseInt);
+	    System.out.println("intToString: "+ intToString);
+	    System.out.println("maxInt: " + maxInt);
+	    System.out.println("compareInt: "+ compareInt);
+	    System.out.println("parseDouble: "+ parseDouble);
+	    System.out.println("isNaN: "+ isNaN);
+	    System.out.println("parseBoolean: "+ parseBoolean);
+	    System.out.println("boolToString:"+ boolToString);
+	    System.out.println("isDidit: "+ isDigit);
+	    System.out.println("isLetter: "+ isLetter);
+	    System.out.println("toLower: "+ toLower);
+	    System.out.println("decodeLong: "+ decodeLong);
+	    
 	}
+    
+	    
 
 	
 
