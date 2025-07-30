@@ -1,6 +1,6 @@
-  package chapter03.paint;
+  package chapter03.com.bit2025.paint.canvas;
 
-  public class Canvas {
+public class Canvas {
 //   public void drawPoint(Point point) {
 //	   point.show();
 //   }
@@ -27,5 +27,6 @@
    public void draw(Drawable drawable) {
 	   drawable.draw();
    }
+  }
 
  

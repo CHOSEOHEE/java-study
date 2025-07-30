@@ -3,10 +3,10 @@ package chapter03.generic;
 import java.util.ArrayList;
 import java.util.List;
 
-import chapter03.paint.Circle;
-import chapter03.paint.Rectangle;
-import chapter03.paint.Shape;
-import chapter03.paint.Triangle;
+import chapter03.com.bit2025.paint.shape.Circle;
+import chapter03.com.bit2025.paint.shape.Rectangle;
+import chapter03.com.bit2025.paint.shape.Shape;
+import chapter03.com.bit2025.paint.shape.Triangle;
 
 public class WildCardExample {
 

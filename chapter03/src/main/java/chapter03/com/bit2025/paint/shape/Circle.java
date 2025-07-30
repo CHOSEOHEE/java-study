@@ -1,7 +1,8 @@
-package chapter03.paint;
+package chapter03.com.bit2025.paint.shape;
 
 public class Circle extends Shape {
 	private int radius;
+	
 	@Override
 	public void draw() {
 		System.out.println("원을 그렸습니다.");
