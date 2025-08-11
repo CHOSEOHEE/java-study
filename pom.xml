@@ -1,11 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bit2025</groupId>
 	<artifactId>java-study</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<packaging>pom</packaging>
+	
 	<properties>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<maven.compiler.source>21</maven.compiler.source>
@@ -16,14 +19,18 @@
 		<module>drill01</module>
 		<module>drill02</module>
 		<module>drill03</module>
-		<module>drill04</module>
 		<module>drill05</module>
 		<module>Exeercise1</module>
 		<module>exercise2</module>
 		<module>chapter03</module>
+		<!--
 		<module>drill06</module>
+		-->
+		<!--
+		<module>drill04</module>
 		<module>exercise04</module>
 		<module>exercise03</module>
+		-->
 		<module>chapter04</module>
 		<module>network</module>
 	</modules>

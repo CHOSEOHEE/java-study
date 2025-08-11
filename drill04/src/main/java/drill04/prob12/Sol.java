@@ -1,5 +1,7 @@
 package drill04.prob12;
 
+import java.util.Scanner;
+
 /**
  * 
  * 문제 12. 소수(Prime Number) 판별
