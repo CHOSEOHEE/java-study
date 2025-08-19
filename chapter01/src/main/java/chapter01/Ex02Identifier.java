@@ -10,6 +10,6 @@ public class Ex02Identifier {
 		
 		// 자못된 식별자 사용
 		// int 1stRank = 1; // 숫자로 시작
-		//int class = 1;       // 예약어 사용
+		//int class = 1;       // 예약어 사용 
 	}
 }
