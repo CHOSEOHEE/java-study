@@ -9,9 +9,9 @@ public class ProbMain {
 		
 		Customer customer = new Customer();
 		customer.setName("둘리");
-		customer.setAddress(address);
+		customer.setAdderss("아파트");
 		
-		/* 출력 코드 작성 */
+		System.out.println("둘리의 아파트" + "=" + "서울 강남대로 189번지");
 	}
 	
 	

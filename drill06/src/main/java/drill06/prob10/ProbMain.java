@@ -12,8 +12,8 @@ public class ProbMain {
 		
 		scanner.close();
 		
-		System.out.println("제곱: " + MathTool.square(number));
-		System.out.println("2배: " + MathTool.doubleIt(number));		
+		System.out.println("제곱: " + MathTool.setSquare(number));
+		System.out.println("2배: " + MathTool.setDoubleInt(number));		
 	}
 
 }
